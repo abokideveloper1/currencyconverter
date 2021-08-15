@@ -1,0 +1,7 @@
+name = str(input("Enter your names and surnames: ")).strip()
+print("Analyzing your name...")
+print("Your name in upper case letters is {}".format(name.upper()))
+print("Your name in lower case letters is {}".format(name.lower()))
+print("Your names and surnames together have a total of {} letters.".format(len(name) - name.count(' ')))
+print("Your first name has a total of {} letters".format(name.find(' ')))
+print("Split names and surnames: {}".format(name.split()))
